@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.port{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.port nav{
+    background-color: rgb(153, 177, 177);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.hero-1{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    background-color: aqua;
+    width: 100%;
+    padding: 40px;
+    margin: 0;
+}
+.hero-1 h1{
+    font-size: 30px;
+    margin: 20px;
+}
+.hero-1 p{
+    font-size: 26px;
+    width: 500px;
+    margin: 20px;
+}
+.hero-1 button{
+    margin: 20px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(167, 103, 226);
+    color: white;
+    box-shadow: 0 12px 12px rgb(221, 203, 103);
+    cursor: pointer;
+    transition: transform 2s;
+}
+.hero-1 button:hover{
+    transform: rotateX(180deg);
+}
+.hero-1 img{
+    width: 200%;
+    height: 100%;
+    box-shadow: 0 12px 12px brown;
+    cursor: pointer;
+    transition: transform 4s;
+}
+.hero-1 img:hover{
+    transform: scale(2);
+}
+.hero-2{
+    background-color: #bdcf81;
+}
+.card{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    color: blueviolet;
+    gap: 20px;
+}
+.card-container p{
+width: 400px;
+}
+.card1{
+    background-color: aqua;
+    box-shadow: 0 12px 12px rgb(180, 117, 35);
+    transition: transform 2s;
+}
+.card1:hover{
+    transform: translateX(40px);
+}
+.card2{
+    background-color: aquamarine;
+    box-shadow: 0 12px 12px tomato;
+    transition: transform 2s;
+}
+.card2:hover{
+    transform: translateY(40px);
+}
+.card-content img{
+width: 100%;
+height: 200px;
+}
+.card-container h1 {
+    text-align: center;
+}
+.card-container p{
+    text-align: center;
+}
